@@ -21,7 +21,7 @@ if len(argv) > 0:
                 for line in lines:
                     output = interpreter.evaljs(line)
                     if output is None:
-                        print(" ")
+                        print("")
                     else:
                         print(output)
             else:
